@@ -192,3 +192,7 @@ return sum;
 
 const exampel = countDepositSum(1000,24,0.12);
 console.log(exampel);
+
+
+
+//=====================
