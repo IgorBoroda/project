@@ -186,13 +186,20 @@ function logName(name,surname){
 
 
 function countDepositSum(depoInUsd,month,rate){
-const sum = depoInUsd *(1+rate/12)** month;
-return sum;
+    const sum = depoInUsd *(1+rate/12)** month;
+    return sum;
 }
 
-const exampel = countDepositSum(1000,24,0.12);
-console.log(exampel);
+const example = countDepositSum(10000,24,0.14);
+
+console.log('example:', example);
 
 
+function onClick() {
+    const input = prompt('My message');
+    console.log(input);
+}
 
 //=====================
+
+
